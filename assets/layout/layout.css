@@ -1,12 +1,11 @@
 /*universe global classes*/
-.parent {
+.row {
   display: flex;
-  width: 800px;
   border: 1px solid #000;
+  text-align: center;
 }
 
-.child {
-  width: 100px;  /* Or whatever */
-  margin: auto;  /* Magic! */
-/*  background-color: green;*/
+.cell {
+	text-align: center;
+	width: 100px;  /* Or whatever row*/
 }
