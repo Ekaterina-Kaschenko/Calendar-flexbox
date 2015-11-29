@@ -1,0 +1,20 @@
+/*widjet calendar*/
+.w-calendar{
+	width: 400px;
+	border: 2px solid #00ACEC;
+	border-radius: 10px;
+}
+
+.w-calendar-header{
+	text-align: center;
+	color: #00ACEC;
+	background-color: #FFFE21;
+}
+.w-calendar-week{
+	text-align: center;
+	width:26px;
+}
+.w-calendar-day{
+ 	border-spacing: 0;
+ 	text-align: center;
+}
