@@ -4,8 +4,6 @@
 	background-color: #FFFE21;
 }
 .calendar{
- 	flex-flow: row wrap;
-	flex-direction: column;
 	justify-content: flex-end;
 }
 .calendar-row {
