@@ -1,6 +1,8 @@
 /*universe global classes*/
 .calendar{
 	display: flex;
+ 	flex-flow: row wrap;
+	flex-direction: column;
 }
 .calendar-row-item {
 	display: inline-flex;
