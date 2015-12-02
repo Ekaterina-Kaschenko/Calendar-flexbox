@@ -1,5 +1,5 @@
 /*widjet calendar*/
-.w-calendar-header{
+.calendar-header{
 	color: #00ACEC;
 	background-color: #FFFE21;
 }
@@ -7,10 +7,18 @@
  	flex-flow: row wrap;
 	flex-direction: column;
 	justify-content: flex-end;
+	text-align: center;
 }
-.calendar-row {
+.calendar__row {
 	border: 1px solid #000;
+
 }
-.calendar-row-item {
-	width: 100px; 
+.calendar__row__item {
+	width: 100px;
+}
+.calendar__row__item:hover{
+	background-color: #FFFE21;
+}
+.none{
+	background-color: #fff;
 }
